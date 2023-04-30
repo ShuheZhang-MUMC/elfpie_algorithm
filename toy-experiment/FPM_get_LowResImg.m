@@ -71,7 +71,7 @@ snr_data = 0;
 tic        
 for con = 1:n_LED^2
     I_camera_noised(:,:,con) = imnoise(I_camera(:,:,con),...
-                             'salt & pepper',0) + 0*randn(pix_CCD);
+                             'salt & pepper',0.03) + 0.002*randn(pix_CCD);
 
     snr_data = snr_data + snr(I_camera(:,:,con),...
                               I_camera_noised(:,:,con)-I_camera(:,:,con));
