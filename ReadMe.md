@@ -35,9 +35,10 @@ We use the gamma corrected intensity measurement in image gradient domian to be 
 <font size=10>$$\mathcal{L} _{Fidelty}(\mathbf{\Psi},\mathbf{P})=\sum_{n=1}^{N}\left \|\right \| \bigtriangledown \mathbf{I} ^{\gamma}_{n} - \bigtriangledown\left | \mathbf{F} ^{\dagger}\mathbf{P} \mathbf{M} _{n}\mathbf{\Psi}  \right |^{2\gamma} \left \|\right \|_{1} ,   \mathbb{C}^{A}\longrightarrow \mathbb{R}$$</font>
 
 <br>
+
 $\mathbf{F} ^{\dagger}$ denotes the inverse Fourier transfrom.
 
-$\mathbf{P}$ denotes the pupil function of the image.
+$\mathbf{P}$ denotes the pupil function of the image system.
 
 $\mathbf{M}_{n}$ denotes the selection mask for n-th LED illumination.
 
