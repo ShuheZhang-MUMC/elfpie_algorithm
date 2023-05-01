@@ -60,12 +60,12 @@ $$\mathcal{L} _{Penalty}(\mathbf{\Psi})=\alpha \left \|\right \| \bigtriangledow
 
 
 
-### The complex gradient of the cost function is calculated uisng the $\mathbb{C}\mathbb{R}-\mathbf{Calculus}$ [[paper]](http://dsp.ucsd.edu/~kreutz/PEI-05%20Support%20Files/complex_derivatives.pdf)
-
-
+#### The complex gradient of the cost function is calculated uisng the $\mathbb{C}\mathbb{R}-\mathbf{Calculus}$ [[paper]](http://dsp.ucsd.edu/~kreutz/PEI-05%20Support%20Files/complex_derivatives.pdf)
+<br>
+<br>
 ## Experiment using HOMEMADE FPM platform
 
-#### low-quality raw image data cube
+### low-quality raw image data cube
 
 We test the ELFPIE on the USAF resolution target using our **homemade** FPM platform.
 The raw image suffers from severe noises and vignetting effect. LED array is not well-calibrated also.
