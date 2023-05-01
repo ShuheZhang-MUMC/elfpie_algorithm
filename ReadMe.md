@@ -10,7 +10,7 @@ Simulation experiments are available in 'toy-experiment' folder. <br>
 Experiment demo is available in folder **"usaf_demo"**
 
 
-## User-friendly FPM experiment !
+## User-friendly FPM experiment
 We present a simple but efficient and robust reconstruction algorithm for Fourier ptychographic microscopy, termed error-laxity Fourier ptychographic iterative engine (Elfpie), that is simultaneously robust to <br>
 <br>
 **(1) noise signal (including Gaussian, Poisson, and salt & pepper noises)** <br>
