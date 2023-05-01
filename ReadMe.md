@@ -55,4 +55,4 @@ $$\mathcal{L} _{Penalty}(\mathbf{\Psi})=\alpha \left \|\right \| \bigtriangledow
 ### The complex gradient of the cost function is calculated uisng $\mathbb{C}\mathbb{R}-Calculus$
 
 
-### This is sample $\mathcal{L} _{Penalty}(\mathbf{\Psi})=\alpha \left \|\right \| \bigtriangledown\bigtriangledown\left | \mathbf{F} ^{\dagger}\mathbf{\Psi}  \right |\left \|\right \|_{1} +\beta\left \|\right \| \bigtriangledown\bigtriangledown \angle\mathbf{F}  ^{\dagger}\mathbf{\Psi}   \left \|\right \|_{1} ,   \mathbb{C}^{A}\longrightarrow \mathbb{R}$
+### This is sample $\mathcal{L} _{Penalty}(\mathbf{\Psi})=\alpha \left \|\right \| \bigtriangledown\bigtriangledown\left | \mathbf{F} ^{\dagger}\mathbf{\Psi}  \right |\left \|\right \|_{1} +\beta\left \|\right \| \bigtriangledown\bigtriangledown \angle\mathbf{F}  ^{\dagger}\mathbf{\Psi}   \left \|\right \|_{1} ,\mathbb{C}^{A}\longrightarrow \mathbb{R}$
