@@ -72,15 +72,15 @@ The raw image suffers from severe noises and vignetting effect. LED array is not
 All dark-field images were collected using the same camera setting (exposure time) as that of bright field images. 
 
 <div align="center">
-<img src="https://github.com/ShuheZhang-MUMC/elfpie_algorithm/blob/main/image/Demo_2.png" width = "600" alt="" align=center />
+<img src="https://github.com/ShuheZhang-MUMC/elfpie_algorithm/blob/main/image/Demo_2.png" width = "400" alt="" align=center />
 </div>
+<br>
 
 ### high-quality reconstruction image
 
 The recontructed image using elfpie shows its high-experiment robustness.
-
 <div align="center">
-<img src="https://github.com/ShuheZhang-MUMC/elfpie_algorithm/blob/main/image/Demo.png" width = "600" alt="" align=center />
+<img src="https://github.com/ShuheZhang-MUMC/elfpie_algorithm/blob/main/image/Demo.png" width = "800" alt="" align=center />
 </div>
 
 
