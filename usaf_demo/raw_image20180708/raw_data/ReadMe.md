@@ -1,7 +1,7 @@
 
 ## This Folder contains raw image data for FPM experiment.
 
-A total of 64 images was collected. <br>
+A total of 64 images (Squared LEDs array, 8 by 8 LEDs) was collected. <br>
 System parameters:
 
 LED height: 180 mm <br>
