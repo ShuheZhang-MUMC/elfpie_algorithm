@@ -67,15 +67,20 @@ $$\mathcal{L} _{Penalty}(\mathbf{\Psi})=\alpha \left \|\right \| \bigtriangledow
 ## Experiment using HOMEMADE FPM platform
 ### low-quality raw image data cube
 
-We test the ELFPIE on the USAF resolution target using our **homemade** FPM platform.
-The raw image suffers from severe noises and vignetting effect. LED array is not well-calibrated also.
+We test the ELFPIE on the USAF resolution target using our **homemade** FPM platform. <br>
+The raw image suffers from severe noises and vignetting effect. LED array is not well-calibrated also. <br>
 All dark-field images were collected using the same camera setting (exposure time) as that of bright field images. 
 
 <div align="center">
 <img src="https://github.com/ShuheZhang-MUMC/elfpie_algorithm/blob/main/image/Demo_2.png" width = "600" alt="" align=center />
 </div>
 
+### high-quality reconstruction image
 
+The recontructed image using elfpie shows its high-experiment robustness.
 
+<div align="center">
+<img src="https://github.com/ShuheZhang-MUMC/elfpie_algorithm/blob/main/image/Demo.png" width = "600" alt="" align=center />
+</div>
 
 
