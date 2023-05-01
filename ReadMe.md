@@ -19,3 +19,7 @@ You don't have to worry about your raw data quality! <br>
 
 ## How does it works ?
 In Elfpie, we embed the inverse problem of FPM under the framework of feature extraction/recovering and propose a new image gradient-based data fidelity cost function regularized by the global second-order total-variation regularization. The closed-form complex gradient for the cost function is derived and is back-propagated using the AdaBelief optimizer with an adaptive learning rate. 
+
+## ELFPIE cost function
+
+$\[{\user2{L}_{{\rm{Fidelty - Amplitude}}}}\left( {{\bf{\Psi }},{\bf{P}}} \right) = \sum\limits_{n = 1}^N {{{\left\| {\nabla {{\left( {{{\bf{I}}_n}} \right)}^\gamma } - \nabla {{\left| {{{\bf{F}}^\dag }{\bf{P}}{{\bf{M}}_n}{\bf{\Psi }}} \right|}^{2\gamma }}} \right\|}_1}} ,{\rm{    }}{^A} \to \]$
