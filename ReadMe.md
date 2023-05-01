@@ -28,7 +28,7 @@ In Elfpie, we embed the inverse problem of FPM under the framework of feature ex
 </div>
 
 ## ELFPIE cost function
-
+The cost function contains two parts: the fidelity term and penalty term.
 $$\mathcal{L}_{ELFPIE} = \mathcal{L} _{Fidelty} + \mathcal{L} _{Penalty} $$
 
 #### Data-fidelity term: 
