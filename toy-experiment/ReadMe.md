@@ -5,8 +5,8 @@
 
 #### 1. Run 'FPM_get_LowResImg.m' to generate toy FPM data cube. The cube will be saved in simulation folder. <br>
 
-![image](https://github.com/ShuheZhang-MUMC/elfpie_algorithm/blob/main/toy-experiment/figure_support/Fig1.png)
-
+<img src="https://github.com/ShuheZhang-MUMC/elfpie_algorithm/blob/main/toy-experiment/figure_support/Fig1.png" width = "800" alt="" align=center />
+</div>
 The code generate FPM low-resolution images using the Forward model of FPM.
 
 The code will generate FPM low-resolution images degraded by salt & pepper noise and Gaussian noise. <br>
