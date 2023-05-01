@@ -14,7 +14,7 @@ We present a simple but efficient and robust reconstruction algorithm for Fourie
 **(4) misaligning of LED positions** <br>
 **(5) without the need of calibrating or recovering these system errors** <br>
 <br>
-You don't have to worry about your raw data quality and system calibrations ! <br>
+You don't have to worry about your raw data quality and system calibrations ! (^_^) <br>
 
 <div align="center">
 <img src="https://github.com/ShuheZhang-MUMC/elfpie_algorithm/blob/main/toy-experiment/figure_support/out1.png" width = "800" alt="" align=center />
