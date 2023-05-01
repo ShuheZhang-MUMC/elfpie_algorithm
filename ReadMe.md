@@ -69,9 +69,10 @@ $$\mathcal{L} _{Penalty}(\mathbf{\Psi})=\alpha \left \|\right \| \bigtriangledow
 
 We test the ELFPIE on the USAF resolution target using our **homemade** FPM platform.
 The raw image suffers from severe noises and vignetting effect. LED array is not well-calibrated also.
+All dark-field images were collected using the same camera setting (exposure time) as that of bright field images. 
 
 <div align="center">
-<img src="https://github.com/ShuheZhang-MUMC/elfpie_algorithm/blob/main/image/Demo_2.png" width = "800" alt="" align=center />
+<img src="https://github.com/ShuheZhang-MUMC/elfpie_algorithm/blob/main/image/Demo_2.png" width = "600" alt="" align=center />
 </div>
 
 
