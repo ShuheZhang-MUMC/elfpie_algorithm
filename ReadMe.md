@@ -60,4 +60,4 @@ $$\mathcal{L} _{Penalty}(\mathbf{\Psi})=\alpha \left \|\right \| \bigtriangledow
 
 
 
-### The complex gradient of the cost function is calculated uisng $\mathbb{C}\mathbb{R}-$ [[Calculus]](http://dsp.ucsd.edu/~kreutz/PEI-05%20Support%20Files/complex_derivatives.pdf)
+### The complex gradient of the cost function is calculated uisng $\mathbb{C}\mathbb{R}-Calculus$ [[paper]](http://dsp.ucsd.edu/~kreutz/PEI-05%20Support%20Files/complex_derivatives.pdf)
