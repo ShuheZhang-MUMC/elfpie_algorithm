@@ -51,4 +51,5 @@ We use second-order total-variation (TV)-regularization imposed on both amplitud
 $$\mathcal{L} _{Penalty}(\mathbf{\Psi})=\alpha \left \|\right \| \bigtriangledown\bigtriangledown\left | \mathbf{F} ^{\dagger}\mathbf{\Psi}  \right | \left \|\right \|_{1} +\beta\left \|\right \| \bigtriangledown\bigtriangledown \angle\mathbf{F}  ^{\dagger}\mathbf{\Psi}   \left \|\right \|_{1} ,   \mathbb{C}^{A}\longrightarrow \mathbb{R}$$
 
 
-#### The complex gradient if the cost function is calculated uisng $\mathbb{C}\mathbb{R}-Calculus$
+
+### The complex gradient of the cost function is calculated uisng $\mathbb{C}\mathbb{R}-Calculus$
