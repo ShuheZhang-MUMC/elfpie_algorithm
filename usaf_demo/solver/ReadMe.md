@@ -1,1 +1,1 @@
-This Folder contains five different solver for FPM reconstruction
+This Folder contains five different solvers for FPM reconstruction
