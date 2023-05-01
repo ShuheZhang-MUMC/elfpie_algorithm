@@ -17,6 +17,10 @@ We present a simple but efficient and robust reconstruction algorithm for Fourie
 <br>
 You don't have to worry about your raw data quality! <br>
 
+## USAGE
+Simulation experiments are available in 'toy-experiment' folder.
+
+
 ## How does it works ?
 In Elfpie, we embed the inverse problem of FPM under the framework of feature extraction/recovering and propose a new image gradient-based data fidelity cost function regularized by the global second-order total-variation regularization. The closed-form complex gradient for the cost function is derived and is back-propagated using the AdaBelief optimizer with an adaptive learning rate. 
 
