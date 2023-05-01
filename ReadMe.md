@@ -23,4 +23,4 @@ In Elfpie, we embed the inverse problem of FPM under the framework of feature ex
 ## ELFPIE cost function
 
 
-$\mathcal{L} _{Fidelty}(\mathbf{\Psi},\mathbf{P})=\sum_{n=1}^{N}\left \| \bigtriangledown \mathbf{I} ^{\gamma}_{n} - \bigtriangledown\left | \mathbf{F} ^{\dagger}\mathbf{P} \mathbf{M} _{n}\mathbf{\Psi}  \right |^{2\gamma} \right \|_{1} ,   \mathbb{C}^{A}\longrightarrow \mathbb{R}$
+$\mathcal{L} _{Fidelty}(\mathbf{\Psi},\mathbf{P})=\sum_{n=1}^{N}\left \| \bigtriangledown \mathbf{I} ^{\gamma}_{n} - \bigtriangledown\left | \mathbf{F}^{\dagger}\mathbf{P} \mathbf{M} _{n}\mathbf{\Psi}  \right |^{2\gamma} \right \|_{1} ,   \mathbb{C}^{A}\longrightarrow \mathbb{R}$
