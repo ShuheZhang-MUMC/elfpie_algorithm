@@ -23,4 +23,4 @@ In Elfpie, we embed the inverse problem of FPM under the framework of feature ex
 ## ELFPIE cost function
 
 
-$$\left \|  \right \|_{1} , $$
+$$\left \|\right \|   ss  \left \|\right \|_{1} , $$
