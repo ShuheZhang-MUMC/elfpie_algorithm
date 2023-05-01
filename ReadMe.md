@@ -36,9 +36,7 @@ We use the gamma corrected intensity measurement in image gradient domian to be 
 
 <br>
 Here **F** denotes the Fourier transform, and dagger denotes its Hermitian transpose, P denotes the pupil function, and $\mathbf{P}_{n}$ denotes the selection mask for n-th LED illumination.
-<br>
-Inline: $\mathbf{P}_{n}$
-
+This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
 #### Penalty term: 
 We use second-order total-variation (TV)-regularization imposed on both amplitude and phase of the recontructed high-resolution image as the penalty term to suppress the noise signal
 
