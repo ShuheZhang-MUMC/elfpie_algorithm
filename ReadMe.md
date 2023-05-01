@@ -6,7 +6,7 @@ This is the MATLAB code for Fourier Ptychography reconstruction using ELFPIE.
 We are happy that this [paper](https://doi.org/10.1016/j.sigpro.2023.109088) has been accepted and published on **Signal Processing** 
 
 ## USAGE
-Simulation experiments are available in folder **"toy-experiment"** . <br>
+Simulation experiments are available in folder [toy-experiment](https://github.com/ShuheZhang-MUMC/elfpie_algorithm/tree/main/toy-experiment) . <br>
 Experiment demo is available in folder **"usaf_demo"**
 <br>
 <br>
