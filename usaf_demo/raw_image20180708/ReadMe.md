@@ -14,3 +14,6 @@ pixel-element size 3.45 um <br>
 
 run **pross_old.m** to cut a certain block from the collected images. <br>
 those images will be saved in "pross" Folder
+
+#### incohren_1024.png (normalized) is the average value of those 64 images which can be regarded as the incoherence illumination output.
+#### ORG.png is the direct upsampling of the first image.
