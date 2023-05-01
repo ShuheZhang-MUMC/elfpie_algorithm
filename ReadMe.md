@@ -24,7 +24,6 @@ You don't have to worry about your raw data quality and system calibrations ! (^
 
 ## USAGE
 Simulation experiments are available in 'toy-experiment' folder. <br>
-
 Experiment demo is available in folder **"usaf_demo"**
 
 
