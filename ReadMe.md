@@ -80,7 +80,7 @@ All dark-field images were collected using the same camera setting (exposure tim
 
 The recontructed image using elfpie shows its high-experiment robustness.
 <div align="center">
-<img src="https://github.com/ShuheZhang-MUMC/elfpie_algorithm/blob/main/image/Demo.png" width = "800" alt="" align=center />
+<img src="https://github.com/ShuheZhang-MUMC/elfpie_algorithm/blob/main/image/Demo.png" width = "700" alt="" align=center />
 </div>
 
 
