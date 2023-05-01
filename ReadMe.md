@@ -36,6 +36,8 @@ We use the gamma corrected intensity measurement in image gradient domian to be 
 
 <br>
 
+$\mathbf{I}_{n}$ denotes the n-th low-resolution image.
+
 $\mathbf{F} ^{\dagger}$ denotes the inverse Fourier transfrom.
 
 $\mathbf{P}$ denotes the pupil function of the image system.
