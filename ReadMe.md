@@ -5,6 +5,11 @@ This is the MATLAB code for Fourier Ptychography reconstruction using ELFPIE.
 
 We are happy that this research has been accepted and published on **Signal Processing** https://doi.org/10.1016/j.cmpb.2022.107297
 
+## USAGE
+Simulation experiments are available in 'toy-experiment' folder. <br>
+Experiment demo is available in folder **"usaf_demo"**
+
+
 ## User-friendly FPM experiment !
 We present a simple but efficient and robust reconstruction algorithm for Fourier ptychographic microscopy, termed error-laxity Fourier ptychographic iterative engine (Elfpie), that is simultaneously robust to <br>
 <br>
@@ -19,12 +24,6 @@ You don't have to worry about your raw data quality and system calibrations ! (^
 <div align="center">
 <img src="https://github.com/ShuheZhang-MUMC/elfpie_algorithm/blob/main/toy-experiment/figure_support/out1.png" width = "800" alt="" align=center />
 </div>
-
-
-
-## USAGE
-Simulation experiments are available in 'toy-experiment' folder. <br>
-Experiment demo is available in folder **"usaf_demo"**
 
 
 ## How does it works ?
