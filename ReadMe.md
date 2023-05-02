@@ -43,7 +43,7 @@ $$\mathcal{L}_{ELFPIE} = \mathcal{L} _{Fidelty} + \mathcal{L} _{Penalty}{\huge }
 ### Data-fidelity term: 
 We use the gamma corrected intensity measurement in image gradient domian to be the data fidelity term. Since image gradient is sparse, we further use the L1-norm to achieve sparsity promotion
 
-$$\mathcal{L} _{Fidelty}(\mathbf{\Psi},\mathbf{P})= $$
+$$\mathcal{L} _{Fidelty}(\mathbf{\Psi},\mathbf{P})_ $$
 
 <br>
 
