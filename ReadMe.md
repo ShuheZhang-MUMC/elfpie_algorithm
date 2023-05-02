@@ -54,7 +54,7 @@ We use the gamma corrected intensity measurement in image gradient domian to be 
 
 <br>
 
-$\mathbf{I}_{n}$ denotes the n-th low-resolution image.
+$\mathbf{I}_{n}$ denotes the intensity measurement of n-th low-resolution image.
 
 $\mathbf{F} ^{\dagger}$ denotes the inverse Fourier transfrom.
 
