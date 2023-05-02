@@ -58,7 +58,7 @@ $\mathbf{M}_{n}$ denotes the selection mask for n-th LED illumination.
 ### Penalty term: 
 We use second-order total-variation (TV)-regularization imposed on both amplitude and phase of the recontructed high-resolution image as the penalty term to suppress the noise signal
 
-$$\mathcal{L} _{Penalty}(\mathbf{\Psi})=\alpha \left \|\right \| \bigtriangledown\bigtriangledown\left | \mathbf{F} ^{\dagger}\mathbf{\Psi}  \right | \left \|\right\|_{1} +\beta\left \|\right \| \bigtriangledown\bigtriangledown \angle\mathbf{F}  ^{\dagger}\mathbf{\Psi}   \left \|\right \|_{1} ,   \mathbb{C}^{A}\longrightarrow\mathbb{R} $$
+$$\mathcal{L} _{Penalty}$$
 
 #### The complex gradient of the cost function is calculated uisng the $\mathbb{C}\mathbb{R}-\mathbf{Calculus}$ [[paper]](http://dsp.ucsd.edu/~kreutz/PEI-05%20Support%20Files/complex_derivatives.pdf)
 <br>
