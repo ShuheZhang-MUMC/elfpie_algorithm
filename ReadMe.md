@@ -66,7 +66,7 @@ $\mathbf{M}_{n}$ denotes the selection mask for n-th LED illumination.
 We use second-order total-variation (TV)-regularization imposed on both amplitude and phase of the recontructed high-resolution image as the penalty term to suppress the noise signal
 
 ```math
-\mathcal{L}_{Penalty}(\mathbf{\Psi})=\alpha \left \| \bigtriangledown\bigtriangledown\left | \mathbf{F} ^{\dagger}\mathbf{\Psi}  \right | \left \|\right\|_{1} +\beta\left \|\right \| \bigtriangledown\bigtriangledown \angle\mathbf{F}  ^{\dagger}\mathbf{\Psi}   \right \|_{1} ,   \mathbb{C}^{A}\longrightarrow\mathbb{R} 
+\mathcal{L}_{Penalty}(\mathbf{\Psi})=\alpha \left \| \bigtriangledown\bigtriangledown\left | \mathbf{F} ^{\dagger}\mathbf{\Psi}  \right | \right\|_{1} +\beta\left \| \bigtriangledown\bigtriangledown \angle\mathbf{F}  ^{\dagger}\mathbf{\Psi}   \right \|_{1} ,   \mathbb{C}^{A}\longrightarrow\mathbb{R} 
 ```
 
 
