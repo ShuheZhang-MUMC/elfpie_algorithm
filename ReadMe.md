@@ -49,7 +49,7 @@ The cost function contains two parts: the fidelity term and penalty term.
 We use the gamma corrected intensity measurement in image gradient domian to be the data fidelity term. Since image gradient is sparse, we further use the $\mathrm{L} _{1}\mathrm{-norm}$ to achieve sparsity promotion.
 
 ```math
-{\large \mathcal{L}_{Fidelty} (\mathbf{\Psi}, \mathbf{P}) = \sum_{n=1}^N  \left \| \bigtriangledown \mathbf{I} ^{\gamma}_{n} - \bigtriangledown\left | \mathbf{F}^{\dagger}\mathbf{P} \mathbf{M} _{n}\mathbf{\Psi}  \right |^{2\gamma} \right \|_{1} ,\mathbb{C}^{A}\longrightarrow\mathbb{R}} 
+{\large \mathcal{L}_{Fidelity} (\mathbf{\Psi}, \mathbf{P}) = \sum_{n=1}^N  \left \| \bigtriangledown \mathbf{I} ^{\gamma}_{n} - \bigtriangledown\left | \mathbf{F}^{\dagger}\mathbf{P} \mathbf{M} _{n}\mathbf{\Psi}  \right |^{2\gamma} \right \|_{1} ,\mathbb{C}^{A}\longrightarrow\mathbb{R}} 
 ```
 
 <br>
