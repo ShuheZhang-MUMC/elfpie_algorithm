@@ -38,8 +38,10 @@ In Elfpie, we embed the inverse problem of FPM under the framework of feature ex
 <br>
 
 ## ELFPIE cost function
+The cost function contains two parts: the fidelity term and penalty term.
 
-$$\mathcal{L}_{ELFPIE} = \mathcal{L}_{Fidelity} + \mathcal{L}_{Penalty}$$
+$$ \mathcal{L}_{ELFPIE} = \mathcal{L}_{Fidelity} + \mathcal{L}_{Penalty}  $$
+
 
 ### Data-fidelity term: 
 We use the gamma corrected intensity measurement in image gradient domian to be the data fidelity term. Since image gradient is sparse, we further use the L1-norm to achieve sparsity promotion.
