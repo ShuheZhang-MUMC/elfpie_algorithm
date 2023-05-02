@@ -72,8 +72,9 @@ We use second-order total-variation (TV)-regularization imposed on both amplitud
 {\large \mathcal{L}_{Penalty}(\mathbf{\Psi})=\alpha \left \| \bigtriangledown\bigtriangledown\left | \mathbf{F} ^{\dagger}\mathbf{\Psi}  \right | \right\|_{1} +\beta\left \| \bigtriangledown\bigtriangledown \angle\mathbf{F}  ^{\dagger}\mathbf{\Psi}   \right \|_{1} ,   \mathbb{C}^{A}\longrightarrow\mathbb{R}}
 ```
 
+The isotropic second-order TV-regularization is
 ```math
-\left \| \bigtriangledown\bigtriangledown \mathbf{X} \right\|_{1} = \left \| \sqrt{\left(\bigtriangledown_{xx} \mathbf{X}\right)^{2} + \left(\bigtriangledown_{yy} \mathbf{X}\right)^{2} + \left(\bigtriangledown_{xy} \mathbf{X}\right)^{2}} \right\|_{2}
+{\large \left \| \bigtriangledown\bigtriangledown \mathbf{X} \right\|_{1} = \left \| \sqrt{\left(\bigtriangledown_{xx} \mathbf{X}\right)^{2} + \left(\bigtriangledown_{yy} \mathbf{X}\right)^{2} + \left(\bigtriangledown_{xy} \mathbf{X}\right)^{2}} \right\|_{1}}
 ```
 
 
