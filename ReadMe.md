@@ -40,7 +40,9 @@ In Elfpie, we embed the inverse problem of FPM under the framework of feature ex
 ## ELFPIE cost function
 The cost function contains two parts: the fidelity term and penalty term.
 
-$$ \mathcal{L}_{ELFPIE} = \mathcal{L}_{Fidelity} + \mathcal{L}_{Penalty}  $$
+$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+
+$$\mathcal{L}_{ELFPIE} = \mathcal{L}_{Fidelity} + \mathcal{L}_{Penalty}  $$
 
 
 ### Data-fidelity term: 
