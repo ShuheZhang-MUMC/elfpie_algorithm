@@ -62,6 +62,8 @@ $\mathbf{P}$ denotes the pupil function of the image system.
 
 $\mathbf{M}_{n}$ denotes the selection mask for n-th LED illumination.
 
+When $\gamma = 1$ the fidelity term uses intensity measurement, while for $\gamma = 0.5$ the fidelity uses amplitude measurement. Other fractional gamme can be tested and generates different reconstruction results.
+
 ### Penalty term: 
 We use second-order total-variation (TV)-regularization imposed on both amplitude and phase of the recontructed high-resolution image as the penalty term to suppress the noise signal
 
