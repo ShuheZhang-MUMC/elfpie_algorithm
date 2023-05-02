@@ -76,8 +76,8 @@ The second-order TV-regularization on vector $\mathbf{X}$ is
 
 ```math
 \begin{align}
-{\large Isotropic-TV: &\left \| \bigtriangledown\bigtriangledown \mathbf{X} \right\|_{1} = \left \| \sqrt{\left(\bigtriangledown_{xx} \mathbf{X}\right)^{2} + \left(\bigtriangledown_{yy} \mathbf{X}\right)^{2} + 2 \left(\bigtriangledown_{xy} \mathbf{X}\right)^{2}} \right\|_{1}}\\
-{\large Anisotropic-TV: &\left \| \bigtriangledown\bigtriangledown \mathbf{X} \right\|_{1} = \left \| \bigtriangledown_{xx} \mathbf{X}\right\|_{1} + \left \| \bigtriangledown_{yy} \mathbf{X}\right\|_{1} + 2 \left \| \bigtriangledown_{xy} \mathbf{X}\right\|_{1}}
+{\large Isotropic-TV: \left \| \bigtriangledown\bigtriangledown \mathbf{X} \right\|_{1} &= \left \| \sqrt{\left(\bigtriangledown_{xx} \mathbf{X}\right)^{2} + \left(\bigtriangledown_{yy} \mathbf{X}\right)^{2} + 2 \left(\bigtriangledown_{xy} \mathbf{X}\right)^{2}} \right\|_{1}}\\
+{\large Anisotropic-TV: \left \| \bigtriangledown\bigtriangledown \mathbf{X} \right\|_{1} &= \left \| \bigtriangledown_{xx} \mathbf{X}\right\|_{1} + \left \| \bigtriangledown_{yy} \mathbf{X}\right\|_{1} + 2 \left \| \bigtriangledown_{xy} \mathbf{X}\right\|_{1}}
 \end{align}
 ```
 
