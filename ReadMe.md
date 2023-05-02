@@ -70,7 +70,7 @@ We use second-order total-variation (TV)-regularization imposed on both amplitud
 ```
 
 
-#### The complex gradient of the cost function is calculated uisng the $\mathbb{C}\mathbb{R}-\mathbf{Calculus}$ [[paper]](http://dsp.ucsd.edu/~kreutz/PEI-05%20Support%20Files/complex_derivatives.pdf)
+#### The complex gradient of the cost function is calculated uisng the [$\mathbb{C}\mathbb{R}-\mathbf{Calculus}$] (http://dsp.ucsd.edu/~kreutz/PEI-05%20Support%20Files/complex_derivatives.pdf)
 <br>
 <br>
 
