@@ -44,7 +44,7 @@ $$\mathcal{L}_{ELFPIE} = \mathcal{L} _{Fidelty} + \mathcal{L} _{Penalty}{\huge }
 ### Data-fidelity term: 
 We use the gamma corrected intensity measurement in image gradient domian to be the data fidelity term. Since image gradient is sparse, we further use the L1-norm to achieve sparsity promotion.
 
-$$ \mathcal{L} _{Fidelty}(\mathbf{\Psi},\mathbf{P})\sum_{n=1}^{N}\left \|\right \| \bigtriangledown \mathbf{I} ^{\gamma}_{n} - \bigtriangledown\left | \mathbf{F} ^{\dagger}\mathbf{P} \mathbf{M} _{n}\mathbf{\Psi}  \right |^{2\gamma} \left \|\right \|_{1}   $$
+$$\mathcal{L} _{Fidelty}(\mathbf{\Psi},\mathbf{P})=\sum_{n=1}^{N}\left \|\right \| \bigtriangledown \mathbf{I} ^{\gamma}_{n} - \bigtriangledown\left | \mathbf{F} ^{\dagger}\mathbf{P} \mathbf{M} _{n}\mathbf{\Psi}  \right |^{2\gamma} \left \|\right \|_{1} ,\mathbb{C}^{A}\longrightarrow\mathbb{R} $$
 
 <br>
 
@@ -59,7 +59,7 @@ $\mathbf{M}_{n}$ denotes the selection mask for n-th LED illumination.
 ### Penalty term: 
 We use second-order total-variation (TV)-regularization imposed on both amplitude and phase of the recontructed high-resolution image as the penalty term to suppress the noise signal
 
-$$ \mathcal{L}_{Penalty}(\mathbf{\Psi})=\alpha \left \|\right \| \bigtriangledown\bigtriangledown\left | \mathbf{F} ^{\dagger}\mathbf{\Psi}  \right | \left \|\right\|_{1} +\beta\left \|\right \| \bigtriangledown\bigtriangledown \angle\mathbf{F}  ^{\dagger}\mathbf{\Psi}   \left \|\right \|_{1} ,   \mathbb{C}^{A}\longrightarrow\mathbb{R} $$
+$$\mathcal{L}_{Penalty}(\mathbf{\Psi})=\alpha \left \|\right \| \bigtriangledown\bigtriangledown\left | \mathbf{F} ^{\dagger}\mathbf{\Psi}  \right | \left \|\right\|_{1} +\beta\left \|\right \| \bigtriangledown\bigtriangledown \angle\mathbf{F}  ^{\dagger}\mathbf{\Psi}   \left \|\right \|_{1} ,   \mathbb{C}^{A}\longrightarrow\mathbb{R} $$
 
 #### The complex gradient of the cost function is calculated uisng the $\mathbb{C}\mathbb{R}-\mathbf{Calculus}$ [[paper]](http://dsp.ucsd.edu/~kreutz/PEI-05%20Support%20Files/complex_derivatives.pdf)
 <br>
