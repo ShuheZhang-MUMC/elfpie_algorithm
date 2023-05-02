@@ -49,7 +49,7 @@ The cost function contains two parts: the fidelity term and penalty term.
 We use the gamma corrected intensity measurement in image gradient domian to be the data fidelity term. Since image gradient is sparse, we further use the L1-norm to achieve sparsity promotion.
 
 ```math
-\mathcal{L}_{Fidelty} (\mathbf{\Psi}, \mathbf{P}) = \sum_{n=1}^N  \left \| \bigtriangledown \mathbf{I} ^{\gamma}_{n} - \bigtriangledown\left | \mathbf{F}^{\dagger}\mathbf{P} \mathbf{M} _{n}\mathbf{\Psi}  \right |^{2\gamma} \right \|_{1} ,\mathbb{C}^{A}\longrightarrow\mathbb{R}{\huge } 
+{\huge \mathcal{L}_{Fidelty} (\mathbf{\Psi}, \mathbf{P}) = \sum_{n=1}^N  \left \| \bigtriangledown \mathbf{I} ^{\gamma}_{n} - \bigtriangledown\left | \mathbf{F}^{\dagger}\mathbf{P} \mathbf{M} _{n}\mathbf{\Psi}  \right |^{2\gamma} \right \|_{1} ,\mathbb{C}^{A}\longrightarrow\mathbb{R}} 
 ```
 
 <br>
@@ -66,7 +66,7 @@ $\mathbf{M}_{n}$ denotes the selection mask for n-th LED illumination.
 We use second-order total-variation (TV)-regularization imposed on both amplitude and phase of the recontructed high-resolution image as the penalty term to suppress the noise signal
 
 ```math
-\mathcal{L}_{Penalty}(\mathbf{\Psi})=\alpha \left \| \bigtriangledown\bigtriangledown\left | \mathbf{F} ^{\dagger}\mathbf{\Psi}  \right | \right\|_{1} +\beta\left \| \bigtriangledown\bigtriangledown \angle\mathbf{F}  ^{\dagger}\mathbf{\Psi}   \right \|_{1} ,   \mathbb{C}^{A}\longrightarrow\mathbb{R} 
+{\huge \mathcal{L}_{Penalty}(\mathbf{\Psi})=\alpha \left \| \bigtriangledown\bigtriangledown\left | \mathbf{F} ^{\dagger}\mathbf{\Psi}  \right | \right\|_{1} +\beta\left \| \bigtriangledown\bigtriangledown \angle\mathbf{F}  ^{\dagger}\mathbf{\Psi}   \right \|_{1} ,   \mathbb{C}^{A}\longrightarrow\mathbb{R}}
 ```
 
 
