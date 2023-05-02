@@ -73,7 +73,7 @@ We use second-order total-variation (TV)-regularization imposed on both amplitud
 ```
 
 ```math
-\left \| \bigtriangledown\bigtriangledown \mathbf{X} \right\|_{1} = \left \| \bigtriangledown_{xx}\left | \mathbf{X} + \bigtriangledown_{yy}\left | \mathbf{X} \bigtriangledown_{xy}\left | \mathbf{X} \right\|_{2}
+\left \| \bigtriangledown\bigtriangledown \mathbf{X} \right\|_{1} = \left \| \bigtriangledown_{xx} \mathbf{X} + \bigtriangledown_{yy} \mathbf{X} \bigtriangledown_{xy} \mathbf{X} \right\|_{2}
 ```
 
 
