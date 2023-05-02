@@ -74,12 +74,12 @@ We use second-order total-variation (TV)-regularization imposed on both amplitud
 
 The second-order TV-regularization on vector $\mathbf{X}$ is
 
-```Latex
+$$
 \begin{align}
 {\large \text{Isotropic-TV} &  \left \| \bigtriangledown\bigtriangledown \mathbf{X} \right\|_{1} = \left \| \sqrt{\left(\bigtriangledown_{xx} \mathbf{X}\right)^{2} + \left(\bigtriangledown_{yy} \mathbf{X}\right)^{2} + 2 \left(\bigtriangledown_{xy} \mathbf{X}\right)^{2}} \right\|_{1}}\\
 {\large \text{Anisotropic-TV} &  \left \| \bigtriangledown\bigtriangledown \mathbf{X} \right\|_{1} = \left \| \bigtriangledown_{xx} \mathbf{X}\right\|_{1} + \left \| \bigtriangledown_{yy} \mathbf{X}\right\|_{1} + 2 \left \| \bigtriangledown_{xy} \mathbf{X}\right\|_{1}}
 \end{align}
-```
+$$
 
 #### The complex gradient of the cost function is calculated uisng the $\mathbb{C}\mathbb{R}-\mathbf{Calculus}$ [[paper]](http://dsp.ucsd.edu/~kreutz/PEI-05%20Support%20Files/complex_derivatives.pdf)
 <br>  
