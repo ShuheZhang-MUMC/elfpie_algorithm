@@ -40,17 +40,17 @@ In Elfpie, we embed the inverse problem of FPM under the framework of feature ex
 ## ELFPIE cost function
 The cost function contains two parts: the fidelity term and penalty term.
 
-$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
-
 ```math
-\mathcal{L}_{ELFPIE}+\mathcal{L}_{Fidelity}+\mathcal{L}_{Penalty}
+\mathcal{L}_{ELFPIE} = \mathcal{L}_{Fidelity} + \mathcal{L}_{Penalty}
 ```
 
 
 ### Data-fidelity term: 
 We use the gamma corrected intensity measurement in image gradient domian to be the data fidelity term. Since image gradient is sparse, we further use the L1-norm to achieve sparsity promotion.
 
-$$\mathcal{L}_{Fidelty} (\mathbf{\Psi}, \mathbf{P}) = \sum_{n=1}^N   = \mathcal{L} _{Fidelty} + \mathcal{L} _{Penalty}{\huge }  \left \|\right \| \bigtriangledown \mathbf{I} ^{\gamma}_{n} - \bigtriangledown\left | \mathbf{F}^{\dagger}\mathbf{P} \mathbf{M} _{n}\mathbf{\Psi}  \right |^{2\gamma} \left \|\right \|_{1} ,\mathbb{C}^{A}\longrightarrow\mathbb{R}$$
+```math
+\mathcal{L}_{Fidelty} (\mathbf{\Psi}, \mathbf{P}) = \sum_{n=1}^N   = \mathcal{L} _{Fidelty} + \mathcal{L} _{Penalty}{\huge }  \left \|\right \| \bigtriangledown \mathbf{I} ^{\gamma}_{n} - \bigtriangledown\left | \mathbf{F}^{\dagger}\mathbf{P} \mathbf{M} _{n}\mathbf{\Psi}  \right |^{2\gamma} \left \|\right \|_{1} ,\mathbb{C}^{A}\longrightarrow\mathbb{R}
+```
 
 <br>
 
