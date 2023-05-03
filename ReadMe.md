@@ -74,10 +74,10 @@ We use second-order total-variation (TV)-regularization imposed on both amplitud
 
 Where
 ```math
-{\large \begin{align}
-\left | \mathbf{X}  \right | & = \sqrt{\mathfrak{R^2(\mathbf{X} )}+\mathfrak{I^2(\mathbf{X} )} } \\
+{\large 
+\left | \mathbf{X}  \right | & = \sqrt{\mathfrak{R^2(\mathbf{X} )}+\mathfrak{I^2(\mathbf{X} )} } \text{and, }
 \angle \mathbf{X} & = \arctan \frac{\mathfrak{I(\mathbf{X} )}}{\mathfrak{R(\mathbf{X} )}} 
-\end{align}} 
+} 
 ```
 
 #### The complex gradient of the cost function is calculated uisng the $\mathbb{C}\mathbb{R}\text{-Calculus}$ [[paper]](http://dsp.ucsd.edu/~kreutz/PEI-05%20Support%20Files/complex_derivatives.pdf)
