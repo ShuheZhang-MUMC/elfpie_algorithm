@@ -83,8 +83,8 @@ Where
 #### The complex gradient of the cost function is calculated uisng the $\mathbb{C}\mathbb{R}\text{-Calculus}$ [[paper]](http://dsp.ucsd.edu/~kreutz/PEI-05%20Support%20Files/complex_derivatives.pdf)
 
 ### Optimizer: 
-The optimizer used in ELFPIE is a combination of AdaBelif and AdaDelta. The learning-rate $\boldsymbol{\delta}$ is adaptively adjusted according to historical gradient. We choose $r_1 = 0.9$, $r_2 = 0.999$, and $\boldsymbol{\delta}^0 = 100$ for learning the parameters. At t-th iteration, the model parameters are updated according to
-
+The optimizer used in ELFPIE is a combination of AdaBelif and AdaDelta. The learning-rate $\boldsymbol{\delta}$ is adaptively adjusted according to historical gradient. We choose $r_1 = 0.9$, $r_2 = 0.999$, and $\boldsymbol{\delta}^0 = 100$ for learning the parameters. <br>
+At the t-th iteration, the model parameters are updated according to
 
  ```math
 {\large \begin{align}
