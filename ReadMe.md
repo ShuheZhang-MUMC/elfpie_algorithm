@@ -121,6 +121,4 @@ The recontructed image using elfpie shows its high-experiment robustness.
 <div align="center">
 <img src="https://github.com/ShuheZhang-MUMC/elfpie_algorithm/blob/main/image/Demo.png" width = "730" alt="" align=center />
 </div>
-
-
-We are happy if you found that this code is of help, and please cite our research. Thank you! 
+ 
