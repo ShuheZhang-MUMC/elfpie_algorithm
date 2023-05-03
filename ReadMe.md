@@ -95,7 +95,7 @@ At the t-th iteration, the model parameters are updated according to
  ```math
 {\large \begin{align}
 \mathbf{g} & = \bigtriangledown_{\mathbf{\overline{\Psi}}} \mathcal{L}_{ELFPIE} &&\text{——Gradient}\\
-\boldsymbol{\mu}^t & = r_1 \boldsymbol{\mu}^{t-1} + \left( 1-r_1 \right) \mathbf{g} &&\text{——First moment estimation} \\
+\boldsymbol{\rm{\mu}}^t & = r_1 \boldsymbol{\mu}^{t-1} + \left( 1-r_1 \right) \mathbf{g} &&\text{——First moment estimation} \\
 \boldsymbol{\upsilon }^t & = r_2 \boldsymbol{\upsilon}^{t-1} + \left( 1-r_2 \right) \left |\boldsymbol{\mu}^t- \mathbf{g} \right |^2 &&\text{——Belief in gradient direction}\\
 \stackrel\frown{\boldsymbol{\mu}} & = \boldsymbol{\mu}^t/\left ( 1 + r_1^{t} \right )  &&\text{——Bias correction }\\
 \stackrel\frown{\boldsymbol{\upsilon }} & = \boldsymbol{\upsilon }^t/\left ( 1 + r_2^{t} \right )   \\
