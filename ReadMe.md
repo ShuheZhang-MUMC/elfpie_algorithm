@@ -126,9 +126,10 @@ The iteration convergent with few loops (20 loops).<br>
 The Fourier spectrum of the sample within and without the Synthetic Aperture are reconstructed.
 
 <div align="center">
-<img src="https://github.com/ShuheZhang-MUMC/elfpie_algorithm/blob/main/image/testnew51.gif" width = "730" alt="" align=center />
+<img src="https://github.com/ShuheZhang-MUMC/elfpie_algorithm/blob/main/image/testnew51.gif" width = "500" alt="" align=center />
 </div>
 
+<br>
 <br>
 Compared against other FPIE, our proposed methods generates high-experimental robustness recontruction results.
 
