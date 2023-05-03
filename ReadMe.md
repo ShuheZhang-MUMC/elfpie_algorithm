@@ -1,3 +1,8 @@
+
+<div align="center">
+<img src="https://github.com/ShuheZhang-MUMC/elfpie_algorithm/blob/main/toy-experiment/figure_support/Fig1.png" width = "600" alt="" align=center />
+</div><br>
+
 # ELFPIE: an error-laxity Fourier ptychographic iterative engine
 <br>
 This is the MATLAB code for Fourier Ptychography reconstruction using ELFPIE.
