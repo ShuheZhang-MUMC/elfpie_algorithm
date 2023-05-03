@@ -122,7 +122,16 @@ All dark-field images were collected using the same camera setting (exposure tim
 
 ### high-quality reconstruction image
 
-The recontructed image using elfpie shows its high-experiment robustness.
+The iteration convergent with few loops (20 loops).<br>
+The Fourier spectrum of the sample within and without the Synthetic Aperture are reconstructed.
+
+<div align="center">
+<img src="https://github.com/ShuheZhang-MUMC/elfpie_algorithm/blob/main/image/testnew51.gif" width = "730" alt="" align=center />
+</div>
+
+<br>
+Compared against other FPIE, our proposed methods generates high-experimental robustness recontruction results.
+
 <div align="center">
 <img src="https://github.com/ShuheZhang-MUMC/elfpie_algorithm/blob/main/image/Demo.png" width = "730" alt="" align=center />
 </div>
