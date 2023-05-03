@@ -74,7 +74,7 @@ We use second-order total-variation (TV)-regularization imposed on both amplitud
 
 Where
 ```math
-{\LARGE \begin{align}
+{\large \begin{align}
 \left | \mathbf{X}  \right | & = \sqrt{\mathfrak{R^2(\mathbf{X} )}+\mathfrak{I^2(\mathbf{X} )} } \\
 \angle \mathbf{X} & = \arctan \frac{\mathfrak{I(\mathbf{X} )}}{\mathfrak{R(\mathbf{X} )}} 
 \end{align}} 
