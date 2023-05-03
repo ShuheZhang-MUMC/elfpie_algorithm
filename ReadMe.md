@@ -93,9 +93,9 @@ At the t-th iteration, the model parameters are updated according to
 \boldsymbol{\upsilon }^t & = r_2 \boldsymbol{\upsilon}^{t-1} + \left( 1-r_2 \right) \left |\boldsymbol{\mu}^t- \mathbf{g} \right |^2 &\text{Belief in gradient direction}\\
 \stackrel\frown{\boldsymbol{\mu}} & = \boldsymbol{\mu}^t/\left ( 1 + r_1^{t} \right )  \\
 \stackrel\frown{\boldsymbol{\upsilon }} & = \boldsymbol{\upsilon }^t/\left ( 1 + r_2^{t} \right )   \\
- \bigtriangleup \Psi & = \frac{\sqrt{\boldsymbol{\delta}^{t-1}}}{\sqrt{\stackrel\frown{\boldsymbol{\upsilon }}}+\eta}  \cdot \left [ r_1 \stackrel\frown{\boldsymbol{\mu}} +\left (  1-r_1 \right )\mathbf{g} \right ] \\
+ \bigtriangleup \mathbf{\Psi} & = \frac{\sqrt{\boldsymbol{\delta}^{t-1}}}{\sqrt{\stackrel\frown{\boldsymbol{\upsilon }}}+\eta}  \cdot \left [ r_1 \stackrel\frown{\boldsymbol{\mu}} +\left (  1-r_1 \right )\mathbf{g} \right ] \\
 \mathbf{\Psi}^t & = \mathbf{\Psi}^{t-1} +  \bigtriangleup \mathbf{\Psi} &\text{Increment of} \mathbf{\Psi}\\
-\boldsymbol{\delta}^{t} & = r_1\boldsymbol{\delta}^{t-1}+\left ( 1-r_1\right )  \left |  \bigtriangleup \Psi \right |^2 &\text{Adaptive learning rate} 
+\boldsymbol{\delta}^{t} & = r_1\boldsymbol{\delta}^{t-1}+\left ( 1-r_1\right )  \left |  \bigtriangleup \mathbf{\Psi} \right |^2 &\text{Adaptive learning rate} 
 \end{align}} 
 ```
 
