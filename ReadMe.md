@@ -81,6 +81,21 @@ Where
 ```
 
 #### The complex gradient of the cost function is calculated uisng the $\mathbb{C}\mathbb{R}\text{-Calculus}$ [[paper]](http://dsp.ucsd.edu/~kreutz/PEI-05%20Support%20Files/complex_derivatives.pdf)
+
+### Optimizer: 
+```math
+\begin{align}
+\mathbf{g} & = \bigtriangledown_{\mathbf{\overline{\Psi}}} \mathcal{L}_{ELFPIE} \\
+\mathbf{\mu}^t & = r_1 \mathbf{\mu}^{t-1} + \left( 1-r_1 \right) \mathbf{g} \\
+\mathbf{\upsilon }^t & = r_2 \mathbf{\upsilon}^{t-1} + \left( 1-r_2 \right) \left |\mathbf{\mu}^t- \mathbf{g} \right |^2 \\
+\stackrel\frown{\mathbf{\mu}} & = \mathbf{\mu}^t/\left ( 1 + r_1^{t} \right )  \\
+\stackrel\frown{\mathbf{\upsilon }} & = \mathbf{\upsilon }^t/\left ( 1 + r_2^{t} \right )   \\
+ \bigtriangleup \Psi & = \frac{\sqrt{\delta^{t-1}}}{\sqrt{\stackrel\frown{\mathbf{\upsilon }}}+\eta}  \cdot \left [ r_1 \stackrel\frown{\mathbf{\mu}} +\left (  1-r_1 \right )\mathbf{g} \right ] \\
+\Psi^t & = \Psi^{t-1} +  \bigtriangleup \Psi \\
+\delta^{t} & = r_1\delta^{t-1}+\left ( 1-r_1\right )  \left |  \bigtriangleup \Psi \right |^2  
+\end{align}
+```
+
 <br>  
 <br>
 
