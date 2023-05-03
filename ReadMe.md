@@ -94,7 +94,7 @@ At the t-th iteration, the model parameters are updated according to
 \stackrel\frown{\boldsymbol{\mu}} & = \boldsymbol{\mu}^t/\left ( 1 + r_1^{t} \right )  \\
 \stackrel\frown{\boldsymbol{\upsilon }} & = \boldsymbol{\upsilon }^t/\left ( 1 + r_2^{t} \right )   \\
  \bigtriangleup \Psi & = \frac{\sqrt{\boldsymbol{\delta}^{t-1}}}{\sqrt{\stackrel\frown{\boldsymbol{\upsilon }}}+\eta}  \cdot \left [ r_1 \stackrel\frown{\boldsymbol{\mu}} +\left (  1-r_1 \right )\mathbf{g} \right ] \\
-\Psi^t & = \Psi^{t-1} +  \bigtriangleup \Psi &\text{Increment of parameter}\\
+\mathbf{\Psi}^t & = \mathbf{\Psi}^{t-1} +  \bigtriangleup \mathbf{\Psi} &\text{Increment of} \mathbf{\Psi}\\
 \boldsymbol{\delta}^{t} & = r_1\boldsymbol{\delta}^{t-1}+\left ( 1-r_1\right )  \left |  \bigtriangleup \Psi \right |^2 &\text{Adaptive learning rate} 
 \end{align}} 
 ```
