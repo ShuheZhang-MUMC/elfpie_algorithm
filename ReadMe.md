@@ -84,7 +84,7 @@ Where
 
 ### Optimizer: 
 ```math
-\begin{align}
+{\large \begin{align}
 \mathbf{g} & = \bigtriangledown_{\mathbf{\overline{\Psi}}} \mathcal{L}_{ELFPIE} \\
 \boldsymbol{\mu}^t & = r_1 \boldsymbol{\mu}^{t-1} + \left( 1-r_1 \right) \mathbf{g} \\
 \boldsymbol{\upsilon }^t & = r_2 \boldsymbol{\upsilon}^{t-1} + \left( 1-r_2 \right) \left |\boldsymbol{\mu}^t- \mathbf{g} \right |^2 \\
@@ -93,7 +93,7 @@ Where
  \bigtriangleup \Psi & = \frac{\sqrt{\boldsymbol{\delta}^{t-1}}}{\sqrt{\stackrel\frown{\boldsymbol{\upsilon }}}+\eta}  \cdot \left [ r_1 \stackrel\frown{\boldsymbol{\mu}} +\left (  1-r_1 \right )\mathbf{g} \right ] \\
 \Psi^t & = \Psi^{t-1} +  \bigtriangleup \Psi \\
 \boldsymbol{\delta}^{t} & = r_1\boldsymbol{\delta}^{t-1}+\left ( 1-r_1\right )  \left |  \bigtriangleup \Psi \right |^2  
-\end{align}
+\end{align}} 
 ```
 
 <br>  
