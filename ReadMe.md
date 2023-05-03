@@ -89,13 +89,13 @@ At the t-th iteration, the model parameters are updated according to
  ```math
 {\large \begin{align}
 \mathbf{g} & = \bigtriangledown_{\mathbf{\overline{\Psi}}} \mathcal{L}_{ELFPIE} \\
-\boldsymbol{\mu}^t & = r_1 \boldsymbol{\mu}^{t-1} + \left( 1-r_1 \right) \mathbf{g} \text{   First moment estimation} \\
-\boldsymbol{\upsilon }^t & = r_2 \boldsymbol{\upsilon}^{t-1} + \left( 1-r_2 \right) \left |\boldsymbol{\mu}^t- \mathbf{g} \right |^2 \text{   Belief in gradient direction}\\
+\boldsymbol{\mu}^t & = r_1 \boldsymbol{\mu}^{t-1} + \left( 1-r_1 \right) \mathbf{g} &\text{   First moment estimation} \\
+\boldsymbol{\upsilon }^t & = r_2 \boldsymbol{\upsilon}^{t-1} + \left( 1-r_2 \right) \left |\boldsymbol{\mu}^t- \mathbf{g} \right |^2 &\text{   Belief in gradient direction}\\
 \stackrel\frown{\boldsymbol{\mu}} & = \boldsymbol{\mu}^t/\left ( 1 + r_1^{t} \right )  \\
 \stackrel\frown{\boldsymbol{\upsilon }} & = \boldsymbol{\upsilon }^t/\left ( 1 + r_2^{t} \right )   \\
  \bigtriangleup \Psi & = \frac{\sqrt{\boldsymbol{\delta}^{t-1}}}{\sqrt{\stackrel\frown{\boldsymbol{\upsilon }}}+\eta}  \cdot \left [ r_1 \stackrel\frown{\boldsymbol{\mu}} +\left (  1-r_1 \right )\mathbf{g} \right ] \\
 \Psi^t & = \Psi^{t-1} +  \bigtriangleup \Psi \text{   Increment of parameter}\\
-\boldsymbol{\delta}^{t} & = r_1\boldsymbol{\delta}^{t-1}+\left ( 1-r_1\right )  \left |  \bigtriangleup \Psi \right |^2 \text{   Adaptive learning rate} 
+\boldsymbol{\delta}^{t} & = r_1\boldsymbol{\delta}^{t-1}+\left ( 1-r_1\right )  \left |  \bigtriangleup \Psi \right |^2 &\text{   Adaptive learning rate} 
 \end{align}} 
 ```
 
