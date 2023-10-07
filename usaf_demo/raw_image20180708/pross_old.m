@@ -1,10 +1,10 @@
 clc
 clear
-pix = 260;
+pix = 960;
 lowSeq=zeros(pix,pix,64);
 
-x_pos = 619;
-y_pos = 420;
+x_pos = 173;
+y_pos = 38;
 for n=1:64
     A=imread(['raw_data//image',num2str(n),'.png']);
     p=im2double(A);
