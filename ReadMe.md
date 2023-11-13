@@ -123,7 +123,7 @@ All dark-field images were collected using the same camera setting (exposure tim
 ### high-quality reconstruction image
 
 The iteration convergent with few loops (20 loops).<br>
-The Fourier spectrum of the sample within and without the Synthetic Aperture are reconstructed.
+The Fourier spectrum of the sample inside and outside the Synthetic Aperture are reconstructed.
 
 <div align="center">
 <img src="https://github.com/ShuheZhang-MUMC/elfpie_algorithm/blob/main/image/testnew51.gif" width = "500" alt="" align=center />
